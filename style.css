@@ -1,0 +1,155 @@
+@font-face 
+{
+    font-family: germanicaFont;
+    src: url(font/Plain-Germanica.woff);
+}
+
+html body{
+    margin: 0px;
+    background-color: rgb(240, 240, 240);
+    height: 100%;
+    width: 100%;
+}
+
+h1
+{
+    text-align: center;
+    font-family: germanicaFont;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container
+{
+    width: 80%;
+    background-color: white;
+    color: black;
+}
+
+.container ul
+{
+    justify-content: space-between;
+}
+
+.nav
+{
+    width: 100%;
+    color:black;
+    font-weight: bold;
+}
+
+.nav a
+{
+    text-decoration: none;
+}
+
+.nav a:hover
+{
+    color: black;
+}
+
+a
+{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.row hr
+{
+    margin: 0;
+    border: 5px solid;
+}
+
+.row h2
+{
+    font-size: 15px;
+}
+
+.row h3
+{
+    font-size: 13px;
+    color:grey;
+    font-weight: normal; 
+}
+
+.row p
+{
+    font-size: 15px;
+}
+
+.row img
+{
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+section
+{
+    padding-bottom: 40px;
+}
+
+.clanak .row
+{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.title
+{
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 3%;
+}
+
+.verticalLine 
+{
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid lightgray;
+}
+
+.title h1
+{
+    text-align: left;
+    font-family: georgia;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.text
+{
+    padding-top: 1%;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.forma label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+.forma input.error, textarea.error{
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+
+footer
+{
+    background-color: rgb(221, 221, 221);
+}
+
+@media (max-width: 992px)
+{
+    .row
+    {
+        text-align: center;
+    }
+
+    .row img
+    {
+        padding-top: 30px;
+    }
+}
